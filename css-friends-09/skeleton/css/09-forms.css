@@ -1,0 +1,42 @@
+/* PHASE 9: Forms */
+.form {
+  margin: 0 0 20px 0;
+  display: flex;
+}
+
+.post-form {
+  float: left;
+  margin: 0 0 0 20px;
+  padding:19px;
+  width:500px;
+  backgroud: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display:block;
+}
+
+.input {
+  margin: 0 0 20px 0;
+  display:block;
+}
+
+.submit {
+  margin: 20px 0 0 0;
+  padding: 0 0 3px 0;
+}
+
+.post-form .input .post-title {
+  display: block;
+  padding: 0 0 5px 0;
+}
+
+.input > input {
+  display:block;
+  padding: 10px;
+  width: calc(100% - 22px);
+  border: 1px solid #ccc;
+}
+
+.post-form .input .post-body {
+
+}

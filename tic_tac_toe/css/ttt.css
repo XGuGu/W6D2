@@ -1,0 +1,38 @@
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  width: 310px;
+  /* height:300px; */
+  /* border: solid black; */
+  list-style: none;
+}
+
+li{
+  /* padding: 1px; */
+  width: 90px;
+  height:90px;
+  border: 5px solid black;
+  background: lightgrey;
+
+
+}
+li:hover{
+  background: yellow;
+}
+
+.x {
+  background-color: black;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.o {
+  background-color: white;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
